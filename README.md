@@ -6,16 +6,21 @@ There are options to configure this program such as removing the 'Approval' requ
 
 This project is still heavily under development, so expect there to updates and changes in the coming days.
 
+If you like my work please consider donating:
+<a href="https://www.buymeacoffee.com/seaborg1" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 ## Getting Started
 
 These are some basic instructions to help you get started.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What you need to install:
 
 * [imessage-reader](https://pypi.org/project/imessage-reader/) - python lib for working with imessage
 * [OpenAI API](https://auth0.openai.com/u/signup/identifier?state=hKFo2SBDdGt4b2tMS2VHRzU4SXhNd1lZZHJxR0xsS0F5Wk53QqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIE56aWJ3cWJ1NEZLb05HSHdoMnpBZzk5SVAwcGs4b2ZJo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q) - ChatGPT API
+
+Follow this [link](https://www.alfredapp.com/help/troubleshooting/indexing/terminal-full-disk-access/) to enable full disk access for Terminal. This allows the program to access your chat.db in order to read and respond to text messages.
 
 ### Installing
 
