@@ -1,25 +1,63 @@
-# Text Bot GPT
+# Project Title
 
-# Before Using:
-Open Terminal
-Run:
+This is a text bot for imessage that was inspired by South Park's 'Deep Learning' episode. The program was made to continuously run so that it is constantly checking whether or not it needs to respond to a text message. If the specified number texts you, it will automatically feed the text message into OpenAI's ChatGPT API and come up with a response to the text. This text will then be sent to the phone number you specified. 
 
-'pip install imessage-reader'
+There are options to configure this program such as removing the 'Approval' required before sending automatically sending responses. I added many comments throughout the code in case you are curious about what is going on. Also, in the comments I make note of some changes in functionality you can make.
 
-'pip install openai'
+This project is still heavily under development, so expect there to updates and changes in the coming days.
 
-Go into System Settings on your mac, under 'Privacy & Security', press on 'Full Disk Access' and enable Terminal. This allows the program to read and respond to your imessage conversations
+## Getting Started
 
-# Usage
-Go into text-bot-GPT.py and define the 'phone_numer' variable as the number you want to text.
-Example, this would text the number '+123456789': phone_number = '+123456789'
+These are some basic instructions to help you get started.
 
-Go into chat_functionality.py and on line 3 paste your OpenAI API key in the designated spot. This program requires an OpenAI API key in order to work. If you do not have a key, you can make an account and/or get a key here: 
-https://auth0.openai.com/u/signup/identifier?state=hKFo2SBDdGt4b2tMS2VHRzU4SXhNd1lZZHJxR0xsS0F5Wk53QqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIE56aWJ3cWJ1NEZLb05HSHdoMnpBZzk5SVAwcGs4b2ZJo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q
+### Prerequisites
 
-Run python3 text-bot-GPT.py in your terminal in order to start the program.
+What things you need to install the software and how to install them
 
-# Notes
-Before sending any messages, the program will output the text that was sent to you, as well as the response that the program is about to send.
-If you are okay with the response, just press enter. Otherwise press 'Ctrl-C' to stop the program and NOT send the message.
-^ This warning can be removed by deleting line 50 in text-bot-gpt.py
+* [imessage-reader](https://pypi.org/project/imessage-reader/) - python lib for working with imessage
+* [OpenAI API](https://auth0.openai.com/u/signup/identifier?state=hKFo2SBDdGt4b2tMS2VHRzU4SXhNd1lZZHJxR0xsS0F5Wk53QqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIE56aWJ3cWJ1NEZLb05HSHdoMnpBZzk5SVAwcGs4b2ZJo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q) - ChatGPT API
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Install OpenAI API (After Obtaining an API key from the website)
+
+```
+pip install openai
+
+```
+
+Install imessage-reader
+
+```
+pip install imessage-reader
+```
+
+### Usage
+
+Before using the program, open the file 'config.py' and paste your OpenAI API key on the designated location (This never changes). Then paste the phone number you want to text with at the designated location (This you may change often depending on who you want to text). 
+
+## Built With
+
+* [imessage-reader](https://pypi.org/project/imessage-reader/) - python lib for working with imessage
+* [OpenAI API](https://auth0.openai.com/u/signup/identifier?state=hKFo2SBDdGt4b2tMS2VHRzU4SXhNd1lZZHJxR0xsS0F5Wk53QqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIE56aWJ3cWJ1NEZLb05HSHdoMnpBZzk5SVAwcGs4b2ZJo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q) - ChatGPT API
+* [AppleScript]([https://pypi.org/project/imessage-reader/](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html))
+
+## Contributing
+
+Please read [CONTRIBUTING.md]() for details on the code of conduct, and the process for submitting pull requests to us. Follow the general guidelines outlined in the link. 
+
+## Author
+
+**Franco (Seaborg1)** 
+
+## License
+
+This project is licensed under the GNU v.3 General Public License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Shoutout to [niffitycode](https://pypi.org/user/niftycode/) - Author of imessage-reader
+* [OpenAI](https://openai.com/)
+* [South Park](https://southpark.cc.com/episodes/8byci4/south-park-deep-learning-season-26-ep-4) - For the inspiration
