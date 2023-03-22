@@ -46,7 +46,7 @@ Before using the program, open the file 'config.py' and paste your OpenAI API ke
 
 ## Contributing
 
-Please read [CONTRIBUTING.md]() for details on the code of conduct, and the process for submitting pull requests to us. Follow the general guidelines outlined in the link. 
+Please read [CONTRIBUTING.md](https://github.com/seaborg1/text-bot-GPT/blob/main/CONTRIBUTING.md) for details on the code of conduct, and the process for submitting pull requests to us. Follow the general guidelines outlined in the link. 
 
 ## Author
 
@@ -61,3 +61,7 @@ This project is licensed under the GNU v.3 General Public License - see the [LIC
 * Shoutout to [niffitycode](https://pypi.org/user/niftycode/) - Author of imessage-reader
 * [OpenAI](https://openai.com/)
 * [South Park](https://southpark.cc.com/episodes/8byci4/south-park-deep-learning-season-26-ep-4) - For the inspiration
+
+### Acknowledgment
+
+Shoutout to [PurpleBooth](https://gist.github.com/PurpleBooth) for putting this README template together
