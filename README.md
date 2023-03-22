@@ -1,4 +1,4 @@
-# text-bot-GPT
+# Text Bot GPT
 
 # Before Using:
 Open Terminal
