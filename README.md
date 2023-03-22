@@ -42,7 +42,7 @@ pip install imessage-reader
 
 ### Usage
 
-Before using the program, open the file 'config.py' and paste your OpenAI API key on the designated location (This never changes). Then paste the phone number you want to text with at the designated location (This you may change often depending on who you want to text). 
+Before using the program, open the file 'config.py' and paste your OpenAI API key on the designated location (This never changes). Then paste the phone number you want to text with at the designated location (This you may change often depending on who you want to text). You also need to specify the path to the send_iMessage.scpt file that was downloaded (This is most likely located in the same directory as the other files you downloaded). For Example: script_path = "/Users/name/Desktop/text-bot-GPT/send_iMessage.scpt"
 
 ## Built With
 
