@@ -1,4 +1,4 @@
-# Project Title
+# Text Bot GPT
 
 This is a text bot for imessage that was inspired by South Park's 'Deep Learning' episode. The program was made to continuously run so that it is constantly checking whether or not it needs to respond to a text message. If the specified number texts you, it will automatically feed the text message into OpenAI's ChatGPT API and come up with a response to the text. This text will then be sent to the phone number you specified. 
 
