@@ -75,7 +75,4 @@ This project is licensed under the GNU v.3 General Public License - see the [LIC
 * Shoutout to [niffitycode](https://pypi.org/user/niftycode/) - Author of imessage-reader
 * [OpenAI](https://openai.com/)
 * [South Park](https://southpark.cc.com/episodes/8byci4/south-park-deep-learning-season-26-ep-4) - For the inspiration
-
-### Acknowledgment
-
-Shoutout to [PurpleBooth](https://gist.github.com/PurpleBooth) for putting this README template together
+* Shoutout to [PurpleBooth](https://gist.github.com/PurpleBooth) - for putting this README template together
