@@ -31,7 +31,6 @@ Install OpenAI API (After Obtaining an API key from the website)
 
 ```
 pip install openai
-
 ```
 
 Install imessage-reader
