@@ -47,7 +47,7 @@ Before using the program, open the file 'config.py' and paste your OpenAI API ke
 
 * [imessage-reader](https://pypi.org/project/imessage-reader/) - python lib for working with imessage
 * [OpenAI API](https://auth0.openai.com/u/signup/identifier?state=hKFo2SBDdGt4b2tMS2VHRzU4SXhNd1lZZHJxR0xsS0F5Wk53QqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIE56aWJ3cWJ1NEZLb05HSHdoMnpBZzk5SVAwcGs4b2ZJo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q) - ChatGPT API
-* [AppleScript]([https://pypi.org/project/imessage-reader/](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html))
+* [AppleScript]([https://pypi.org/project/imessage-reader/](https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html)) - Used for sending iMessage
 
 ## Contributing
 
