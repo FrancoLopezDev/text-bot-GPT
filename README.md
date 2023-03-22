@@ -7,6 +7,7 @@ There are options to configure this program such as removing the 'Approval' requ
 This project is still heavily under development, so expect there to updates and changes in the coming days.
 
 If you like my work please consider donating:
+
 <a href="https://www.buymeacoffee.com/seaborg1" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## Getting Started
