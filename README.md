@@ -4,7 +4,7 @@ This is a text bot for imessage that was inspired by South Park's 'Deep Learning
 
 There are options to configure this program such as removing the 'Approval' required before sending automatically sending responses. I added many comments throughout the code in case you are curious about what is going on. Also, in the comments I make note of some changes in functionality you can make.
 
-This project is still heavily under development, so expect there to updates and changes in the coming days.
+This project is still heavily under development, so expect there to be updates and changes in the coming days.
 
 If you like my work please consider donating:
 
