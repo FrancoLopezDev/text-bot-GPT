@@ -21,5 +21,5 @@ Run python3 text-bot-GPT.py in your terminal in order to start the program.
 
 # Notes
 Before sending any messages, the program will output the text that was sent to you, as well as the response that the program is about to send.
-If you are okay with the resposne, just press enter. Otherwise press 'Ctrl-C' to stop the program and NOT send the message.
+If you are okay with the response, just press enter. Otherwise press 'Ctrl-C' to stop the program and NOT send the message.
 ^ This warning can be removed by deleting line 50 in text-bot-gpt.py
